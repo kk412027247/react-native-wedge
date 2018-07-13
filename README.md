@@ -3,15 +3,21 @@
 ![demo.gif](https://upload-images.jianshu.io/upload_images/7505289-150f82e7f61d3dc9.gif?imageMogr2/auto-orient/strip)
 
 
-This package supprot IOS and android
-It use **ART** in react-native.In ios, you must link to this IOS native Libraries.
-You can follow [this guide](https://facebook.github.io/react-native/docs/linking-libraries-ios).
 
+# Install
+
+
+`yarn add react-native-wedge`
+
+This package supprot IOS and android
+It use **ART** in react-native.
+In ios, you must link to this IOS native Libraries.
+You can follow [this guide](https://facebook.github.io/react-native/docs/linking-libraries-ios) to do this.
 In adnroid, it was already linked by default.
 
 
 
-# USAGE
+# Usage
 
 ```
 import {View, ART} from 'react-native';
@@ -30,7 +36,7 @@ const {Surface} = ART;
 </Surface>
 ```
 
-# example with animation
+# Example with animation
 
 ```
 import React from 'react';
